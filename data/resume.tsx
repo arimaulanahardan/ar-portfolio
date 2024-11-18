@@ -56,7 +56,8 @@ export const DATA = {
   education: [
     {
       school: "Qarir Generator",
-      href: "https://pacmann.io/",
+      href: "https://qarirgenerator.com/",
+      location: "Emirates, Dubai - Online Learning",
       degree: "Working Abroad Program for AI Engineers",
       logoUrl: "/company_logo/qg.jpg",
       start: "2024",
@@ -64,7 +65,8 @@ export const DATA = {
     },
     {
       school: "Jenderal Achmad Yani University",
-      href: "https://www.undip.ac.id/",
+      href: "https://www.unjani.ac.id/",
+      location: "Bandung, Indonesia",
       degree: "Bachelor's Degree of Computer Science",
       logoUrl: "/company_logo/unjani.jpg",
       start: "2024",
@@ -72,7 +74,8 @@ export const DATA = {
     },
     {
       school: "Bandung State Polytechnic",
-      href: "https://www.undip.ac.id/",
+      href: "https://www.polban.ac.id/",
+      location: "Bandung, Indonesia",
       degree: "Diploma Degree of Computer Science",
       logoUrl: "/company_logo/polban.jpg",
       start: "2021",

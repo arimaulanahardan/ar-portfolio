@@ -13,6 +13,7 @@ const Education = () => {
             key={education.school}
             href={education.href}
             logoUrl={education.logoUrl}
+            location={education.location}
             altText={education.school}
             title={education.school}
             subtitle={education.degree}
