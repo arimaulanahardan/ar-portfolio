@@ -19,6 +19,7 @@ const Work = () => {
             href={work.href}
             period={`${work.start} - ${work.end ?? "Present"}`}
             description={work.description}
+            technologies={work.technologies}
           />
         ))}
       </div>

@@ -11,10 +11,10 @@ const Header = () => {
     >
       <div className="header-desc">
         <h1 className="font-bold w-full text-center md:text-left text-3xl sm:text-5xl xl:text-6xl inline-block tracking-tight mb-4">
-        Hello, I&rsquo;m Ari 🙌
+        Hello, I&rsquo;m Ari 
         </h1>
         <p className="inline-block text-xl max-w-[550px] w-full text-center md:text-left">
-        Front-End Engineer with 2+ years of experience, and 1 year of expertise in UI/UX design. Familiar with Web3 development and AI engineering. Let&rsquo;s bring your ideas to life!{" "}
+        Front-End Engineer with 2+ years of experience, and 1 year of expertise in Fullstack Developer. Familiar with UI/UX design, Web3 development and AI engineering. Let&rsquo;s bring your ideas to life!{" "}
           <a href="https://www.linkedin.com/in/ari-maulana-hardan/" className="font-semibold underline">
             my LinkedIn
           </a>

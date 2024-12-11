@@ -17,7 +17,8 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
-  description?: string;
+  description?: readonly string[];
+  technologies?: string;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -29,6 +30,7 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  technologies,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
@@ -72,7 +74,9 @@ export const ResumeCard = ({
                 {period}
               </div>
             </div>
-            {location && <div className="font-sans text-xs italic">{location}</div>}
+            {location && (
+              <div className="font-sans text-xs italic">{location}</div>
+            )}
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
           {description && (
@@ -80,7 +84,6 @@ export const ResumeCard = ({
               initial={{ opacity: 0, height: 0 }}
               animate={{
                 opacity: isExpanded ? 1 : 0,
-
                 height: isExpanded ? "auto" : 0,
               }}
               transition={{
@@ -89,7 +92,23 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              <ul className="pl-4 list-disc">
+                {description.map((desc, index) => (
+                  <li key={index}>{desc}</li>
+                ))}
+              </ul>
+              {technologies && (
+                <div className="mt-2">
+                  <div className="font-semibold">Technologies:</div>
+                  <div className="flex flex-wrap gap-1">
+                    {technologies.split(" ").map((tech) => (
+                      <span key={tech} className="badge">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
             </motion.div>
           )}
         </div>

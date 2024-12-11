@@ -5,12 +5,18 @@ export const DATA = {
     {
       company: "Qarir Generator",
       href: "https://www.instagram.com/arimaulanahardan",
-      location: "Emirates, Dubai - Fulltime Remote Working",
-      title: "Web Fullsatck Developer",
+      location: "Uni Emirates Arab, Dubai - Fulltime Remote Working",
+      title: "Fullsatck Developer",
       logoUrl: "/company_logo/qg.jpg",
       start: "August 2024",
       end: null,
-      description: "description",
+      description: [
+        "Engineered and integrated a payment gateway using Xendit, boosting transaction volume by 30%.",
+        "Implemented SEO best practices and integrated Facebook Pixel, increasing organic traffic by 25%.",
+        "Optimized website performance by designing reusable JavaScript components, reducing page load time to 2 seconds.",
+        "Revamped and expanded the Learning Management System (LMS), delivering new features and enhancements, which led to a 40% increase in active users and improved course completion rates.",
+      ],
+      technologies: "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma",
     },
     {
       company: "Kazee",
@@ -20,7 +26,13 @@ export const DATA = {
       logoUrl: "/company_logo/kazee.jpg",
       start: "Jun 2024",
       end: "Nov 2024",
-      description: "description",
+      description: [
+        "Developed and optimized a Customer Relationship Management (CRM) system, enhancing operational efficiency and streamlining user workflows, which improved task completion rates by 25%.",
+        "Implemented interactive data visualization dashboards, enabling stakeholders to gain actionable insights from complex datasets, resulting in a 30% improvement in decision-making speed.",
+        "Engineered duplicate data detection functionality, reducing redundant records by 40%, and ensured data accuracy across the system for improved reliability.",
+        "Designed and deployed advanced features, including filtering, pagination, and sorting mechanisms, which enhanced data accessibility and user experience, boosting user productivity by 20%.",
+      ],
+      technologies: "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma",
     },
     {
       company: "Kode Inkorporasi Technologi (KODINK)",
@@ -30,7 +42,12 @@ export const DATA = {
       logoUrl: "/company_logo/kodink.jpg",
       start: "May 2024",
       end: "Aug 2024",
-      description: "Developed and deployed a comprehensive web application for HIPMI E-Katalog, an online platform facilitating the promotion and sale of products by HIPMI members. Integrated Vue.js with Inertia.js to build a reactive, single-page application (SPA) that provides a smooth user experience with dynamic content loading. Technologies : PHP, Javascript, Laravel, Vue JS, Inertia JS, Tailwinds CSS Available on : https://hipmi-e-katalog.mybeam.me/ ",
+      description: [
+        "Developed and deployed a comprehensive web application for HIPMI E-Katalog, an online platform facilitating the promotion and sale of products by HIPMI members.",
+        "Integrated Vue.js with Inertia.js to build a reactive, single-page application (SPA) that provides a smooth user experience with dynamic content loading.",
+      ],
+      technologies:
+        "PHP, Javascript, Laravel, Vue JS, Inertia JS, Tailwinds CSS",
     },
     {
       company: "Lithium Labs",
@@ -40,7 +57,13 @@ export const DATA = {
       logoUrl: "/company_logo/lithiumlabs.jpg",
       start: "Feb 2024",
       end: "Jul 2024",
-      description: "Developed a responsive and modern UI for Forgebot, a Solana Telegram trading bot, leveraging Visibility and Consistency principles. • Successfully integrated Wallet Connect Crypto, enhancing user experience and security. • Implemented SEO strategies, resulting in improved search engine rankings. Technologies : Typescript, ReactJS, Github, Figma, NodeJS, MaterialUI, Router, Tailwinds Available on : www.forgebot.io , https://forgebot.io/dashboard ",
+      description: [
+        "Developed a responsive and modern UI for Forgebot, a Solana Telegram trading bot, leveraging Visibility and Consistency principles.",
+        "Successfully integrated Wallet Connect Crypto, enhancing user experience and security.",
+        "Implemented SEO strategies, resulting in improved search engine rankings.",
+      ],
+      technologies:
+        "Typescript, ReactJS, Github, Figma, NodeJS, MaterialUI, Router, Tailwinds",
     },
     {
       company: "Neural Technologies",
@@ -50,7 +73,12 @@ export const DATA = {
       logoUrl: "/company_logo/nti.jpg",
       start: "Jan 2023",
       end: "Dec 2023",
-      description: "Developed a high-performance web application dashboard, focusing on user experience and data integration. Jakarta, 2023 • Significantly improved data loading speed from >20 seconds to <3 seconds by optimizing data fetching and rendering. Technologies: Typescript, ReactSJ, Github, Figma, Mapbox, E-Chart, AntDesign, Router, Tailwinds, Figma Available on : (It will be displayed if needed because this is an internal company application.) ",
+      description: [
+        "Developed a high-performance web application dashboard, focusing on user experience and data integration. Jakarta, 2023",
+        "Significantly improved data loading speed from >20 seconds to <3 seconds by optimizing data fetching and rendering",
+      ],
+      technologies:
+        "Typescript, ReactSJ, Github, Figma, Mapbox, E-Chart, AntDesign, Router, Tailwinds",
     },
   ],
   education: [
