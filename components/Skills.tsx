@@ -26,24 +26,27 @@ const skillsicon = [
   "redux",
   "nuxtdotjs",
 ];
+
 const skills = [
+  "React.js",
+  "Next.js",
+  "Vite.js",
+  "Vue.js",
+  "Laravel",
+  "CodeIngniter",
+  "Inertia.js",
+  "Redux",
+  "Node.js",
   "Typescript",
   "Javascript",
   "PHP",
   "Python",
-  "React",
-  "HTML5",
-  "CSS3",
+  "Solana",
   "Tailwinds",
-  "Next.js",
-  "Vite.js",
-  "Redux",
-  "Git",
   "Github",
-  "Gitlab",
-  "VSCode",
-  "Vue.js",
-  "Laravel",
+  "MySQL",
+  "PostgreSQL",
+  "MongoDB",
 ];
 
 const Skills = () => {

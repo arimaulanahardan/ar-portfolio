@@ -4,6 +4,7 @@ import Work from "@/components/Work";
 import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import Library from "@/components/Library";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Work />
       <Education />
       <Skills />
+      <Library />
       <Projects />
     </>
   );

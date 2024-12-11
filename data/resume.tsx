@@ -83,7 +83,7 @@ export const DATA = {
         "Implemented reusable React components to ensure consistency across the platform, reducing development time for new features by 30% and improving maintainability.",
       ],
       technologies:
-        "Typescript, ReactSJ, Github, Figma, Mapbox, E-Chart, AntDesign, Router, Tailwinds",
+        "Typescript, ReactJS, Github, Figma, Mapbox, E-Chart, AntDesign, Router, Tailwinds",
     },
   ],
   education: [
@@ -93,10 +93,13 @@ export const DATA = {
       location: "Emirates, Dubai - Online Learning",
       degree: "Working Abroad Program for AI Engineers",
       logoUrl: "/company_logo/qg.jpg",
-      start: "2024",
+      start: "Jun 2024",
       end: null,
       description:[
-        "test",
+        "Acquired comprehensive knowledge in Artificial Intelligence (AI), with a focus on Large Language Models (LLMs), Deep Learning, and Neural Network Architectures, leveraging frameworks such as TensorFlow and PyTorch.","Gained hands-on experience in developing and fine-tuning LLMs for natural language processing tasks, including text generation, sentiment analysis, and question-answering systems.",
+        "Built and optimized deep learning models for various applications, including image classification, object detection, and predictive analytics, ensuring high performance and scalability.",
+        "Mastered techniques in data preprocessing, feature engineering, and hyperparameter tuning to improve model accuracy and efficiency.",
+        "Explored MLOps best practices for deploying and monitoring machine learning models in production, focusing on automation and system reliability.",
       ],
     },
     {
@@ -105,10 +108,13 @@ export const DATA = {
       location: "Bandung, Indonesia",
       degree: "Bachelor's Degree of Computer Science",
       logoUrl: "/company_logo/unjani.jpg",
-      start: "2024",
+      start: "Sep 2024",
       end: null,
       description:[
-        "test",
+        "Specialized in Artificial Intelligence (AI) and Blockchain Technology, focusing on cutting-edge applications in decentralized systems and intelligent automation.",
+        "Conducted research on AI models and their applications in natural language processing (NLP) and predictive analytics, showcasing advanced skills in machine learning frameworks like PyTorch and TensorFlow.",
+        "Gained expertise in blockchain development, including smart contract implementation and decentralized application (DApp) creation, using platforms such as Ethereum and Solana.",
+        "Acquired in-depth knowledge of distributed ledger technologies (DLT) and their impact on data security, transparency, and digital ecosystems.",
       ]
     },
     {
@@ -117,10 +123,12 @@ export const DATA = {
       location: "Bandung, Indonesia",
       degree: "Diploma Degree of Computer Science",
       logoUrl: "/company_logo/polban.jpg",
-      start: "2021",
-      end: "2024",
+      start: "Jul 2021",
+      end: "Aug 2024",
       description:[
-        "test",
+        "Built a strong foundation in computer science principles, including data structures, algorithms, and object-oriented programming.",
+        "Gained practical experience in web development, database design, and software engineering, completing projects that involved system design and implementation.",
+        "Developed proficiency in programming languages such as Java, PHP, and Python, applying them to solve real-world problems.",
       ]
     },
   ],
