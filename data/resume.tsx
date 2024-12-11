@@ -32,8 +32,7 @@ export const DATA = {
         "Engineered duplicate data detection functionality, reducing redundant records by 40%, and ensured data accuracy across the system for improved reliability.",
         "Designed and deployed advanced features, including filtering, pagination, and sorting mechanisms, which enhanced data accessibility and user experience, boosting user productivity by 20%.",
       ],
-      technologies:
-        "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma, HeidiSQL",
+      technologies: "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma, HeidiSQL",
     },
     {
       company: "Kode Inkorporasi Technologi (KODINK)",
@@ -94,9 +93,35 @@ export const DATA = {
       location: "Emirates, Dubai - Online Learning",
       degree: "Working Abroad Program for AI Engineers",
       logoUrl: "/company_logo/qg.jpg",
-      description: ["anjay test", "anjay test"],
       start: "2024",
       end: null,
+      description:[
+        "test",
+      ],
+    },
+    {
+      school: "Jenderal Achmad Yani University",
+      href: "https://www.unjani.ac.id/",
+      location: "Bandung, Indonesia",
+      degree: "Bachelor's Degree of Computer Science",
+      logoUrl: "/company_logo/unjani.jpg",
+      start: "2024",
+      end: null,
+      description:[
+        "test",
+      ]
+    },
+    {
+      school: "Bandung State Polytechnic",
+      href: "https://www.polban.ac.id/",
+      location: "Bandung, Indonesia",
+      degree: "Diploma Degree of Computer Science",
+      logoUrl: "/company_logo/polban.jpg",
+      start: "2021",
+      end: "2024",
+      description:[
+        "test",
+      ]
     },
   ],
   projects: [

@@ -41,14 +41,10 @@ export const ResumeCard = ({
   };
 
   return (
-    <Card className="flex cursor-pointer"  onClick={handleClick}>
+    <Card className="flex cursor-pointer" onClick={handleClick}>
       <Link href={href || "#"} className="block flex-none">
         <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
-          <AvatarImage
-            src={logoUrl}
-            alt={altText}
-            className="object-contain"
-          />
+          <AvatarImage src={logoUrl} alt={altText} className="object-contain" />
           <AvatarFallback>{altText[0]}</AvatarFallback>
         </Avatar>
       </Link>
@@ -72,42 +68,44 @@ export const ResumeCard = ({
           {location && (
             <div className="font-sans text-xs italic">{location}</div>
           )}
-          {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
+          {subtitle && <div className="font-sans text-xs ">{subtitle}</div>}
         </CardHeader>
 
-        {/* Animasi untuk deskripsi */}
-        <motion.div
-          initial={{ opacity: 0, height: 0 }}
-          animate={{
-            opacity: isExpanded ? 1 : 0,
-            height: isExpanded ? "auto" : 0,
-          }}
-          transition={{
-            duration: 0.7,
-            ease: [0.16, 1, 0.3, 1],
-          }}
-          className="mt-2 text-xs sm:text-sm"
-        >
-          {description && (
-            <ul className="pl-4 list-disc">
-              {description.map((desc, index) => (
-                <li key={index}>{desc}</li>
-              ))}
-            </ul>
-          )}
-          {technologies && (
-            <div className="mt-2">
-              <div className="font-semibold">Technologies:</div>
-              <div className="flex flex-wrap gap-1">
-                {technologies.split(" ").map((tech) => (
-                  <span key={tech} className="badge">
-                    {tech}
-                  </span>
+        <div>
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{
+              opacity: isExpanded ? 1 : 0,
+              height: isExpanded ? "auto" : 0,
+              display: isExpanded ? "block" : "none",
+            }}
+            transition={{
+              duration: 0.7,
+              ease: [0.16, 1, 0.3, 1],
+            }}
+            className="mt-2 text-xs sm:text-sm"
+          >
+            {description && (
+              <ul className="pl-4 list-disc">
+                {description.map((desc, index) => (
+                  <li key={index}>{desc}</li>
                 ))}
+              </ul>
+            )}
+            {technologies && (
+              <div className="mt-2">
+                <div className="font-semibold">Technologies:</div>
+                <div className="flex flex-wrap gap-1">
+                  {technologies.split(" ").map((tech) => (
+                    <span key={tech} className="badge">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
-          )}
-        </motion.div>
+            )}
+          </motion.div>
+        </div>
       </div>
     </Card>
   );
