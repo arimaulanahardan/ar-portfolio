@@ -6,6 +6,7 @@ const libraries = [
   "AntDesign",
   "MaterialUI",
   "ShadcnUI",
+  "Lucide React",
   "RadixUI",
   "ChakraUI",
   "JQuery",
@@ -25,9 +26,9 @@ const libraries = [
 const Library = () => {
   return (
     <section id="library">
-      <div className="justify-center w-full text-center">
+      <div className="w-full text-start sm:text-center justify-start sm:justify-center">
         <h2 className="text-xl font-bold mb-4">Familiar With</h2>
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap  gap-2">
           {libraries.map((library) => (
             <Button key={library}>{library}</Button>
           ))}

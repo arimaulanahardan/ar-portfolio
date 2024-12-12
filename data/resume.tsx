@@ -32,7 +32,8 @@ export const DATA = {
         "Engineered duplicate data detection functionality, reducing redundant records by 40%, and ensured data accuracy across the system for improved reliability.",
         "Designed and deployed advanced features, including filtering, pagination, and sorting mechanisms, which enhanced data accessibility and user experience, boosting user productivity by 20%.",
       ],
-      technologies: "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma, HeidiSQL",
+      technologies:
+        "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma, HeidiSQL",
     },
     {
       company: "Kode Inkorporasi Technologi (KODINK)",
@@ -95,8 +96,9 @@ export const DATA = {
       logoUrl: "/company_logo/qg.jpg",
       start: "Jun 2024",
       end: null,
-      description:[
-        "Acquired comprehensive knowledge in Artificial Intelligence (AI), with a focus on Large Language Models (LLMs), Deep Learning, and Neural Network Architectures, leveraging frameworks such as TensorFlow and PyTorch.","Gained hands-on experience in developing and fine-tuning LLMs for natural language processing tasks, including text generation, sentiment analysis, and question-answering systems.",
+      description: [
+        "Acquired comprehensive knowledge in Artificial Intelligence (AI), with a focus on Large Language Models (LLMs), Deep Learning, and Neural Network Architectures, leveraging frameworks such as TensorFlow and PyTorch.",
+        "Gained hands-on experience in developing and fine-tuning LLMs for natural language processing tasks, including text generation, sentiment analysis, and question-answering systems.",
         "Built and optimized deep learning models for various applications, including image classification, object detection, and predictive analytics, ensuring high performance and scalability.",
         "Mastered techniques in data preprocessing, feature engineering, and hyperparameter tuning to improve model accuracy and efficiency.",
         "Explored MLOps best practices for deploying and monitoring machine learning models in production, focusing on automation and system reliability.",
@@ -110,12 +112,12 @@ export const DATA = {
       logoUrl: "/company_logo/unjani.jpg",
       start: "Sep 2024",
       end: null,
-      description:[
+      description: [
         "Specialized in Artificial Intelligence (AI) and Blockchain Technology, focusing on cutting-edge applications in decentralized systems and intelligent automation.",
         "Conducted research on AI models and their applications in natural language processing (NLP) and predictive analytics, showcasing advanced skills in machine learning frameworks like PyTorch and TensorFlow.",
         "Gained expertise in blockchain development, including smart contract implementation and decentralized application (DApp) creation, using platforms such as Ethereum and Solana.",
         "Acquired in-depth knowledge of distributed ledger technologies (DLT) and their impact on data security, transparency, and digital ecosystems.",
-      ]
+      ],
     },
     {
       school: "Bandung State Polytechnic",
@@ -125,11 +127,11 @@ export const DATA = {
       logoUrl: "/company_logo/polban.jpg",
       start: "Jul 2021",
       end: "Aug 2024",
-      description:[
+      description: [
         "Built a strong foundation in computer science principles, including data structures, algorithms, and object-oriented programming.",
         "Gained practical experience in web development, database design, and software engineering, completing projects that involved system design and implementation.",
         "Developed proficiency in programming languages such as Java, PHP, and Python, applying them to solve real-world problems.",
-      ]
+      ],
     },
   ],
   projects: [
@@ -206,5 +208,36 @@ export const DATA = {
       title: "System",
       colors: [],
     },
+  ],
+  references: [
+    {
+      description:
+        "Ari is a talented and dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him a valuable asset to any team. I highly recommend Ari for any development project.",
+      image: "/ganjar.png",
+      name: "Ganjar Hidayat",
+      position: "Directur of HIPMI Academy",
+      instagram: "https://www.instagram.com/ganjarhidayat.id/",
+      whatsapp: "https://wa.me/628112191947",
+      linkedin: "https://www.linkedin.com/in/ganjar-hidayat-304bbb41/",
+    },
+    {
+      description:
+        "Ari is a highly skilled developer with a keen eye for detail. He consistently delivers high-quality work and is always willing to go the extra mile to ensure project success. I would highly recommend Ari for any development project.",
+      image: "/robby.png",
+      name: "Robby Awaldi",
+      position: "Tech Lead at Neural Technologies",
+      instagram: "https://www.instagram.com/robby_awaldi/",
+      whatsapp: "https://wa.me/6289652629124",
+      linkedin: "https://www.linkedin.com/in/robby-awaldi/",
+    },
+    {
+      description: "Ari is a talented developer with a passion for creating innovative solutions. He is a quick learner and a great team player. I would highly recommend Ari for any development project.",
+      image: "/daffa.png",
+      name: "Daffa Rifki Arditya",
+      position: "Co Founder and CTO at Cyberhouse",
+      instagram: "https://www.instagram.com/ardtys/",
+      whatsapp: "https://wa.me/62882002588636",
+      linkedin: "https://www.linkedin.com/in/ardtys/",
+    }
   ],
 } as const;
