@@ -7,7 +7,7 @@ const About = () => {
       <h2 className="text-xl font-bold">About</h2>
       <div className="space-y-4 text-justify">
         <Markdown>
-          He has successfully developed and deployed 5+ web applications,
+          He has successfully developed and deployed 6+ web applications,
           **improving user engagement by up to 30%** through intuitive UI/UX design
           and optimized performance.
         </Markdown>
@@ -21,7 +21,7 @@ const About = () => {
         </Markdown>
         <Markdown>
           Ari is fluent in English and highly experienced in **remote work
-          environments,++ enabling him to collaborate seamlessly with **global
+          environments,** enabling him to collaborate seamlessly with **global
           teams.** He excels in cross-functional collaboration, consistently
           delivering projects on time and exceeding expectations.
         </Markdown>
