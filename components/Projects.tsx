@@ -21,6 +21,7 @@ const Projects = () => {
             title={project.title}
             dates={project.dates}
             active={project.active}
+            role={project.role}
             description={project.description}
             technologies={project.technologies}
             image={project.image}

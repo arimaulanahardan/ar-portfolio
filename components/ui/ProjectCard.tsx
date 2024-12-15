@@ -12,6 +12,7 @@ interface Props {
   href?: string;
   dates: string;
   active: boolean;
+  role: string;
   description: string;
   technologies: readonly string[];
   links?: readonly {
@@ -31,6 +32,7 @@ const ProjectCard = ({
   description,
   dates,
   image,
+  role,
   video,
   links,
   technologies,
@@ -53,6 +55,7 @@ const ProjectCard = ({
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
+          <p className="text-xs font-sans italic text-muted-foreground">{role}</p>
           <time className="font-sans text-xs">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}

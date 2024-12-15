@@ -1,4 +1,5 @@
 import { Icons } from "@/components/ui/icons";
+import { title } from "process";
 
 export const DATA = {
   work: [
@@ -108,7 +109,8 @@ export const DATA = {
       school: "Jenderal Achmad Yani University",
       href: "https://www.unjani.ac.id/",
       location: "Bandung, Indonesia",
-      degree: "Bachelor's Degree of Computer Science - focus on AI and Blockchain",
+      degree:
+        "Bachelor's Degree of Computer Science - focus on AI and Blockchain",
       logoUrl: "/company_logo/unjani.jpg",
       start: "Sep 2024",
       end: null,
@@ -123,7 +125,8 @@ export const DATA = {
       school: "Bandung State Polytechnic",
       href: "https://www.polban.ac.id/",
       location: "Bandung, Indonesia",
-      degree: "Diploma Degree of Computer Science - focus on Software Engineering",
+      degree:
+        "Diploma Degree of Computer Science - focus on Software Engineering",
       logoUrl: "/company_logo/polban.jpg",
       start: "Jul 2021",
       end: "Aug 2024",
@@ -136,57 +139,274 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Photomatics (Dashboard)",
-      href: "https://photomatics.id",
-      dates: "April 2024 - Present",
+      title: "Qarir Generator - Online Learning Platform",
+      href: "https://qarirgenerator.com/working-abroad",
+      dates: "Aug 2024 - Present",
+      role: "Fullsatck Developer | Project Manager",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Led the development and deployment of Qarir Generator's online learning platform, targeting AI and Data Science education. Designed an intuitive interface using Tailwind CSS and Figma, improving the platform's usability score by 25%. Oversaw project timelines, coordinating a cross-functional team to deliver the project on schedule and within budget, ensuring seamless scalability for future content expansions.",
       technologies: [
         "Laravel",
-        "Nginx",
-        "MySQL",
-        "Bootstrap",
-        "Flutter",
-        "Hive",
-        "Ubuntu",
+        "PHP",
+        "Tailwinds CSS",
+        "Javascript",
+        "Figma",
+        "Github",
       ],
       links: [
         {
           type: "Website",
-          href: "https://photomatics.id",
+          href: "https://qarirgenerator.com/working-abroad",
           icon: <Icons.globe />,
         },
       ],
-      image: "/pht.png",
+      image: "/qarir.png",
+      video: "",
+      },
+    {
+      title: "E-Catalgue HIPMI (Marketplace)",
+      href: "https://hipmi-e-katalog.mybeam.me/",
+      dates: "Sep 2024 - Oct 2024",
+      role: "Fullsatck Developer",
+      active: true,
+      description:
+        "Developed and deployed a comprehensive web application for HIPMI E-Katalog, facilitating the promotion and sale of HIPMI member products and increasing platform engagement by 30%. Integrated Vue.js with Inertia.js to create a reactive single-page application (SPA), delivering a 40% faster navigation experience with dynamic content loading. ",
+      technologies: [
+        "PHP",
+        "Laravel",
+        "Inertia.js",
+        "Vue.js",
+        "MySQL",
+        "Tailwinds CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hipmi-e-katalog.mybeam.me/",
+          icon: <Icons.globe />,
+        },
+      ],
+      image: "/hipmi.png",
       video: "",
     },
     {
-      title: "VCGamers (Marketplace)",
-      href: "https://vcgamers.com",
-      dates: "Jan 2022 - March 2024",
+      title: "Dashboard Experience Benchmarking",
+      href: "#",
+      dates: "Jul 2023 - Sep 2023",
+      role: "Front End Engineer",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store),",
+        "Developed and deployed a high-performance dashboard using React.js with advanced state management tools like Redux, providing seamless user experiences and real-time data integration. Optimized data fetching and rendering processes, reducing data loading speed from over 5 seconds to less than 2 seconds, significantly enhancing application performance and user satisfaction.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "Recoil",
+        "TypeScript",
+        "React.js",
+        "Vite.js",
+        "AntDesign",
+        "E-Chart",
+        "Redux",
+        "Mapbox",
         "TailwindCSS",
-        "Nuxt",
-        "VueX",
+        "Axios",
+      ],
+      links: [
+        {
+          type: "It will be displayed if needed because this is an internal company application.",
+          href: "#",
+          icon: <Icons.globe />,
+        },
+      ],
+      image: "/experienceBenchmarking.png",
+      video: "",
+    },
+    {
+      title: "Website Forgebot - Solana Telegram Trading Bot",
+      href: "https://forgebot.io",
+      dates: "Feb 2024 - Apr 2024",
+      role: "Front End Engineer | Web 3 Developer | UI/UX Designer",
+      active: true,
+      description:
+        "Designed and developed a responsive and modern user interface for Forgebot, a Solana-based Telegram trading bot, focusing on usability and visual consistency, which improved user engagement by 25%. Integrated Wallet Connect Crypto, enhancing user security and convenience, enabling seamless interactions with decentralized wallets.",
+      technologies: [
+        "React.js",
+        "TypeScript",
+        "Vite.js",
+        "MaterialUI",
+        "AntDesign",
+        "Router",
+        "Tailwinds",
+        "InertiaJS",
       ],
       links: [
         {
           type: "Website",
-          href: "https://vcgamers.com",
+          href: "https://forgebot.io",
           icon: <Icons.globe />,
         },
       ],
-      image: "/vc.png",
+      image: "/forge.png",
+      video: "",
+    },
+    {
+      title: "Risk Management System using Fuzzy Logic Algorithm",
+      href: "https://risiko.spi-polban.site/",
+      dates: "Jan 2024 - Jul 2024",
+      role: "Front End Engineer | UI UX Designer | Business Analyst",
+      active: true,
+      description:
+        "Engineered a Risk Management System leveraging Fuzzy Logic Algorithm to analyze and predict potential risks across diverse business scenarios, enhancing decision-making accuracy by 35%. Designed an intuitive interface with advanced data visualization tools using Amcharts, enabling stakeholders to assess risk levels with over 85% user satisfaction (survey-based).",
+      technologies: [
+        "Laravel",
+        "Role Based Access Control",
+        "MySQL",
+        "Fuzzy Logic Algorithm",
+        "Amcharts",
+        "Router",
+        "Tailwinds",
+        "Bizagi",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://risiko.spi-polban.site/",
+          icon: <Icons.globe />,
+        },
+      ],
+      image: "/risk.png",
+      video: "",
+    },
+    {
+      title: "TribeFi - The Social Network for Crypto Enthusiasts",
+      href: "https://tribefi.webflow.io/",
+      dates: "Jul 2024 - Aug 2024",
+      role: "Front End Engineer | UI UX Designer | Webflow Developer",
+      active: true,
+      description:
+        "Designed and developed a responsive and modern user interface for TribeFi, a social network platform for crypto enthusiasts, focusing on user engagement and community building. Integrated social features and interactive elements to enhance user interactions and create a vibrant community experience.",
+      technologies: [
+        "Webflow",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "UI/UX Design",
+        "Community Building",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tribefi.webflow.io/",
+          icon: <Icons.globe />,
+        },
+      ],
+      image: "/tribe.png",
+      video: "",
+    },
+    {
+      title: "Social and Investment Platform for Crypto Enthusiasts",
+      href: "https://www.figma.com/design/5g6GN9EkYJ4Cv8vOcpETJs/TribeFi---Salinan?node-id=0-1&t=EDkWzTCg4963p0sG-1",
+      dates: "Aug 2024 - Sep 2024",
+      role: "UI/UX Designer | Product Designer",
+      active: true,
+      description:
+        "Designed a social and investment platform for crypto enthusiasts, focusing on user engagement, community building, and investment opportunities. Developed wireframes, prototypes, and high-fidelity designs using Figma, incorporating user feedback and design best practices to create a seamless user experience.",
+      technologies: [
+        "Figma",
+        "UI/UX Design",
+        "User Research",
+        "Prototyping",
+        "User Testing",
+        "Design Systems",
+      ],
+      links: [
+        {
+          type: "Figma Design",
+          href: "https://www.figma.com/design/5g6GN9EkYJ4Cv8vOcpETJs/TribeFi---Salinan?node-id=0-1&t=EDkWzTCg4963p0sG-1",
+          icon: <Icons.figma />,
+        },
+      ],
+      image: "/social.png",
+      video: "",
+    },
+    {
+      title: "Mentor Business Academy",
+      href: "https://www.figma.com/design/r430okQFJspLCeW1hADZjy/MENBI?node-id=0-1&t=i84jr98HSZwEEuOi-1",
+      dates: "Sep 2024 - Oct 2024",
+      role: "UI/UX Designer | Product Designer",
+      active: true,
+      description:
+        "Designed a comprehensive online learning platform for Mentor Business Academy, focusing on user engagement, course accessibility, and interactive learning experiences. Developed wireframes, prototypes, and high-fidelity designs using Figma, incorporating user feedback and design best practices to create a seamless user experience.",
+      technologies: [
+        "Figma",
+        "UI/UX Design",
+        "User Research",
+        "Prototyping",
+        "User Testing",
+        "Design Systems",
+      ],
+      links: [
+        {
+          type: "Figma Design",
+          href: "https://www.figma.com/design/r430okQFJspLCeW1hADZjy/MENBI?node-id=0-1&t=i84jr98HSZwEEuOi-1",
+          icon: <Icons.figma />,
+        },
+      ],
+      image: "/menbi.png",
+      video: "",
+    },
+    {
+      title: "DeFi Driveaway - Parking Investment on Blockchain",
+      href: "https://www.figma.com/design/nW5CbIPMDtsHVg3wxVAp8o/Defi-DriveAway?node-id=5-20&t=bAqcm3wXk8riaDTv-1",
+      dates: "March 2024 - Apr 2024",
+      role: "UI/UX Designer | Product Designer",
+      active: true,
+      description:
+        "Designed a decentralized finance (DeFi) platform for parking investment on the blockchain, focusing on user engagement, investment opportunities, and financial transparency. Developed wireframes, prototypes, and high-fidelity designs using Figma, incorporating user feedback and design best practices to create a seamless user experience.",
+      technologies: [
+        "Figma",
+        "UI/UX Design",
+        "User Research",
+        "Prototyping",
+        "User Testing",
+        "Design Systems",
+      ],
+      links: [
+        {
+          type: "Figma Design",
+          href: "https://www.figma.com/design/nW5CbIPMDtsHVg3wxVAp8o/Defi-DriveAway?node-id=5-20&t=bAqcm3wXk8riaDTv-1",
+          icon: <Icons.figma />,
+        },
+      ],
+      image: "/defi.png",
+      video: "",
+    },
+    {
+      title: "Re-Brand HIPMI Academy",
+      href: "https://www.figma.com/design/I7sV0JIdYUQqGVzdidQLra/HIPMI-ACADEMY?node-id=10-528&t=vKKs10sSebpSgVuT-1",
+      dates: "Sep 2024 - Oct 2024",
+      role: "UI/UX Designer | Product Designer",
+      active: true,
+      description:
+        "Redesigned the branding and user experience for HIPMI Academy, focusing on user engagement, course accessibility, and interactive learning experiences. Developed wireframes, prototypes, and high-fidelity designs using Figma, incorporating user feedback and design best practices to create a seamless user experience.",
+      technologies: [
+        "Figma",
+        "UI/UX Design",
+        "User Research",
+        "Prototyping",
+        "User Testing",
+        "Design Systems",
+      ],
+      links: [
+        {
+          type: "Figma Design",
+          href: "https://www.figma.com/design/I7sV0JIdYUQqGVzdidQLra/HIPMI-ACADEMY?node-id=10-528&t=vKKs10sSebpSgVuT-1",
+          icon: <Icons.figma />,
+        },
+      ],
+      image: "/academy.png",
       video: "",
     },
   ],
+
   themes: [
     {
       title: "Light",
@@ -211,7 +431,7 @@ export const DATA = {
   ],
   references: [
     {
-      description: 
+      description:
         "I've worked with Ari on several projects, and he's always impressed me with his dedication and attention to detail. Whether it's solving complex problems or delivering a clean, efficient solution, Ari consistently goes above and beyond. If you're looking for a developer who genuinely cares about the quality of their work, I can't recommend him enough.",
       image: "/ganjar.png",
       name: "Ganjar Hidayat",
@@ -221,7 +441,7 @@ export const DATA = {
       linkedin: "https://www.linkedin.com/in/ganjar-hidayat-304bbb41/",
     },
     {
-      description: 
+      description:
         "Ari is one of those rare developers who not only excels technically but also knows how to collaborate effectively with a team. His ability to break down complex tasks and deliver them with precision has been a game-changer on the projects we've worked on. I'd highly recommend him for any role that requires creativity and problem-solving.",
       image: "/robby.png",
       name: "Robby Awaldi",
@@ -231,7 +451,7 @@ export const DATA = {
       linkedin: "https://www.linkedin.com/in/robby-awaldi/",
     },
     {
-      description: 
+      description:
         "What sets Ari apart is his passion for learning and constantly pushing boundaries. He's quick to adapt to new challenges and always brings innovative ideas to the table. Beyond his technical skills, he’s also a fantastic team player who's always ready to help others. I have no doubt that he'll make a positive impact on any project or team he's a part of.",
       image: "/daffa.png",
       name: "Daffa Rifki Arditya",
@@ -239,6 +459,6 @@ export const DATA = {
       instagram: "https://www.instagram.com/ardtys/",
       whatsapp: "https://wa.me/62882002588636",
       linkedin: "https://www.linkedin.com/in/ardtys/",
-    }
+    },
   ],
 } as const;
