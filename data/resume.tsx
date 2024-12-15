@@ -1,12 +1,11 @@
 import { Icons } from "@/components/ui/icons";
-import { title } from "process";
 
 export const DATA = {
   work: [
     {
       company: "Qarir Generator",
       href: "https://www.instagram.com/arimaulanahardan",
-      location: "Uni Emirates Arab, Dubai - Fulltime Remote Working",
+      location: "Uni Emirates Arab, Dubai - Partime Remote Working",
       title: "Fullsatck Developer",
       logoUrl: "/company_logo/qg.jpg",
       start: "August 2024",

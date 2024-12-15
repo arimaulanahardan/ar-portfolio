@@ -41,7 +41,6 @@ const skills = [
   "Javascript",
   "PHP",
   "Python",
-  "Solana",
   "Tailwinds",
   "Github",
   "MySQL",

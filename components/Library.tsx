@@ -14,13 +14,15 @@ const libraries = [
   "State Management",
   "Redux",
   "API Integration",
-  "Axios",
   "Dinamic Data Fetching",
   "Search Engine Optimization",
   "Clean Code",
-  "Responsive Design",
-  "Cross Browser Testing",
-  "Debugging",
+  "Slack",
+  "Discord",
+  "ClickUp",
+  "Trello",
+  "Figma",
+  
 ];
 
 const Library = () => {
