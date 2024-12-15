@@ -5,13 +5,32 @@ const About = () => {
   return (
     <section id="about">
       <h2 className="text-xl font-bold">About</h2>
-      <Markdown>
-        Specialized in Frontend Development. I use JavaScript every day in my
-        projects and have even solved challenges on Exercism and LeetCode. I
-        have 3+ years of hands-on experience in creating captivating web
-        applications. Sometimes, I also play around with backend development and
-        explore various aspects of web development.
-      </Markdown>
+      <div className="space-y-4 text-justify">
+        <Markdown>
+          He has successfully developed and deployed 5+ web applications,
+          **improving user engagement by up to 30%** through intuitive UI/UX design
+          and optimized performance.
+        </Markdown>
+        <Markdown>
+          Proficient in JavaScript/TypeScript, React.js, and modern frameworks,
+          Ari has completed complex problem-solving challenges on platforms like
+          Exercism and LeetCode, showcasing his analytical skills and dedication
+          to excellence. His expertise includes **integrating Web3 technologies
+          for decentralized applications and building scalable, user-centric web
+          solutions.**
+        </Markdown>
+        <Markdown>
+          Ari is fluent in English and highly experienced in **remote work
+          environments,++ enabling him to collaborate seamlessly with **global
+          teams.** He excels in cross-functional collaboration, consistently
+          delivering projects on time and exceeding expectations.
+        </Markdown>
+        <Markdown>
+          With a proven ability to **adapt and communicate effectively,** Ari is
+          ready to transform innovative ideas into measurable success for your
+          team.
+        </Markdown>
+      </div>
     </section>
   );
 };
