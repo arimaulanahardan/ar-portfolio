@@ -108,7 +108,7 @@ export const DATA = {
       school: "Jenderal Achmad Yani University",
       href: "https://www.unjani.ac.id/",
       location: "Bandung, Indonesia",
-      degree: "Bachelor's Degree of Computer Science",
+      degree: "Bachelor's Degree of Computer Science - focus on AI and Blockchain",
       logoUrl: "/company_logo/unjani.jpg",
       start: "Sep 2024",
       end: null,
@@ -123,7 +123,7 @@ export const DATA = {
       school: "Bandung State Polytechnic",
       href: "https://www.polban.ac.id/",
       location: "Bandung, Indonesia",
-      degree: "Diploma Degree of Computer Science",
+      degree: "Diploma Degree of Computer Science - focus on Software Engineering",
       logoUrl: "/company_logo/polban.jpg",
       start: "Jul 2021",
       end: "Aug 2024",
@@ -211,18 +211,18 @@ export const DATA = {
   ],
   references: [
     {
-      description:
-        "Ari is a talented and dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him a valuable asset to any team. I highly recommend Ari for any development project.",
+      description: 
+        "I've worked with Ari on several projects, and he's always impressed me with his dedication and attention to detail. Whether it's solving complex problems or delivering a clean, efficient solution, Ari consistently goes above and beyond. If you're looking for a developer who genuinely cares about the quality of their work, I can't recommend him enough.",
       image: "/ganjar.png",
       name: "Ganjar Hidayat",
-      position: "Directur of HIPMI Academy",
+      position: "Director of HIPMI Academy",
       instagram: "https://www.instagram.com/ganjarhidayat.id/",
       whatsapp: "https://wa.me/628112191947",
       linkedin: "https://www.linkedin.com/in/ganjar-hidayat-304bbb41/",
     },
     {
-      description:
-        "Ari is a highly skilled developer with a keen eye for detail. He consistently delivers high-quality work and is always willing to go the extra mile to ensure project success. I would highly recommend Ari for any development project.",
+      description: 
+        "Ari is one of those rare developers who not only excels technically but also knows how to collaborate effectively with a team. His ability to break down complex tasks and deliver them with precision has been a game-changer on the projects we've worked on. I'd highly recommend him for any role that requires creativity and problem-solving.",
       image: "/robby.png",
       name: "Robby Awaldi",
       position: "Tech Lead at Neural Technologies",
@@ -231,10 +231,11 @@ export const DATA = {
       linkedin: "https://www.linkedin.com/in/robby-awaldi/",
     },
     {
-      description: "Ari is a talented developer with a passion for creating innovative solutions. He is a quick learner and a great team player. I would highly recommend Ari for any development project.",
+      description: 
+        "What sets Ari apart is his passion for learning and constantly pushing boundaries. He's quick to adapt to new challenges and always brings innovative ideas to the table. Beyond his technical skills, he’s also a fantastic team player who's always ready to help others. I have no doubt that he'll make a positive impact on any project or team he's a part of.",
       image: "/daffa.png",
       name: "Daffa Rifki Arditya",
-      position: "Co Founder and CTO at Cyberhouse",
+      position: "Co-Founder and CTO at Cyberhouse",
       instagram: "https://www.instagram.com/ardtys/",
       whatsapp: "https://wa.me/62882002588636",
       linkedin: "https://www.linkedin.com/in/ardtys/",

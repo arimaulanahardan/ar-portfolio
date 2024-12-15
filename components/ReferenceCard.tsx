@@ -23,7 +23,7 @@ const ReferenceCard = ({
   return (
     <section>
       <div className="bg-brown-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-50 border border-gray-100 p-4 space-y-3">
-        <p className="text-sm italic h-48">{description}</p>
+        <p className="text-xs text-justify italic">{description}</p>
         <div className="flex items-center">
           <svg
             className="w-4 h-4 text-[#FDB241]"
@@ -80,7 +80,7 @@ const ReferenceCard = ({
         </div>
 
         <div className="flex items-center mt-8">
-          <Avatar className="m-auto bg-muted-background dark:bg-foreground">
+          <Avatar>
             <AvatarImage src={image} alt={name} className="w-16 object-contain" />
             <AvatarFallback>{name[0]}</AvatarFallback>
           </Avatar>
