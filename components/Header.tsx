@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 import me from "@/public/me.jpg";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail, MessageCircleMore } from "lucide-react";
 
 const Header = () => {
   return (
@@ -31,6 +31,12 @@ const Header = () => {
             href="https://github.com/arimaulanahardan"
           >
             <Github size={24} />
+          </a>
+          <a className="cursor-pointer" href="mailto:arimaulanahardan@gmail.com">
+            <Mail size={24} />
+          </a>
+          <a href="https://wa.me/6281228512171">
+          <MessageCircleMore size={24} />
           </a>
         </div>
       </div>
