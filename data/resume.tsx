@@ -4,7 +4,7 @@ export const DATA = {
   work: [
     {
       company: "Qarir Generator",
-      href: "https://www.instagram.com/arimaulanahardan",
+      href: "https://qarirgenerator.com/",
       location: "Uni Emirates Arab, Dubai - Partime Remote Working",
       title: "Fullsatck Developer",
       logoUrl: "/company_logo/qg.jpg",
@@ -20,7 +20,7 @@ export const DATA = {
     },
     {
       company: "Kazee",
-      href: "https://www.instagram.com/arimaulanahardan",
+      href: "https://kazee.id/",
       location: "Bandung, Indonesia - Partime",
       title: "Fullstack Developer",
       logoUrl: "/company_logo/kazee.jpg",
@@ -37,7 +37,7 @@ export const DATA = {
     },
     {
       company: "Kode Inkorporasi Technologi (KODINK)",
-      href: "#",
+      href: "https://cod-inc.com/",
       location: "Bandung, Indonesia - Partime",
       title: "Fullstack Developer",
       logoUrl: "/company_logo/kodink.jpg",
@@ -54,7 +54,7 @@ export const DATA = {
     },
     {
       company: "Lithium Labs",
-      href: "#",
+      href: "https://www.linkedin.com/company/lithium-labs",
       location: "Charlotte, North Carolina Area - Internship Remote Working",
       title: "Front End Engineer | Web 3 Developer",
       logoUrl: "/company_logo/lithiumlabs.jpg",
@@ -71,7 +71,7 @@ export const DATA = {
     },
     {
       company: "Neural Technologies",
-      href: "#",
+      href: "https://nti.co.id/",
       location: "Jakarta, Indonesia - Fulltime Internship",
       title: "Frontend Engineer | UI&UX Deisgner",
       logoUrl: "/company_logo/nti.jpg",
