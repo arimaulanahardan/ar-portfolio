@@ -16,8 +16,8 @@ const Header = () => {
         </h1>
         <p className="inline-block text-xl max-w-[550px] w-full text-center md:text-left">
           Front-End Engineer with 2+ years of experience, and 1 year of
-          expertise in Fullstack Developer. Familiar with UI/UX design and Web3
-          development. Let&rsquo;s bring your ideas to life!{" "}
+          expertise in Fullstack Developer. Familiar with UI/UX design, Web3
+          development and integration for AI Engineer. Let&rsquo;s bring your ideas to life!{" "}
         </p>
         <div className="flex justify-center sm:justify-start animate-bounce space-x-4 mt-4">
           <a

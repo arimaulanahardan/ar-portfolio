@@ -15,7 +15,7 @@ const About = () => {
           Proficient in JavaScript/TypeScript, React.js, and modern frameworks,
           Ari has completed complex problem-solving challenges on platforms like
           Exercism and LeetCode, showcasing his analytical skills and dedication
-          to excellence. His expertise includes **integrating Web3 technologies
+          to excellence. His expertise includes **integrating Web3 and AI technologies
           for decentralized applications and building scalable, user-centric web
           solutions.**
         </Markdown>
