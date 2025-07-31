@@ -3,13 +3,29 @@ import { Icons } from "@/components/ui/icons";
 export const DATA = {
   work: [
     {
-      company: "Qarir Generator",
+      company: "80&Company (Fulltime Remote Working)",
+      href: "https://80and.co/",
+      location: "Kyoto, Japan",
+      title: "Web3 Product Designer",
+      logoUrl: "/company_logo/80&co.svg",
+      start: "July 2025",
+      end: null,
+      description: [
+        "Designed and developed brand identity and digital experiences for a company specializing in AI, IT services, and blockchain solutions.",
+        "Focused on creating user-friendly interfaces for crypto and Web3 products, improving usability and visual consistency across platforms.",
+        "Collaborated with cross-functional teams to define product strategy, wireframes, and high-fidelity prototypes aligned with business goals.",
+        "Contributed to building a cohesive design system to ensure scalability and consistency for future product iterations", 
+      ],
+      technologies: "Figma, Webflow, React, Next.js, Tailwind CSS, Javascript, Lovelable, Wimsical",
+    },
+    {
+      company: "Qarir Generator (Fulltime Remote Working)",
       href: "https://qarirgenerator.com/",
-      location: "Uni Emirates Arab, Dubai - Partime Remote Working",
-      title: "Fullsatck Developer",
+      location: "United Arab Emirates, Dubai",
+      title: "Fullstack Developer | IT Project Manager",
       logoUrl: "/company_logo/qg.jpg",
       start: "August 2024",
-      end: null,
+      end: "July 2025",
       description: [
         "Engineered and integrated a payment gateway using Xendit, boosting transaction volume by 30%.",
         "Implemented SEO best practices and integrated Facebook Pixel, increasing organic traffic by 25%.",
@@ -19,9 +35,9 @@ export const DATA = {
       technologies: "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma",
     },
     {
-      company: "Kazee",
+      company: "Kazee (Partime)",
       href: "https://kazee.id/",
-      location: "Bandung, Indonesia - Partime",
+      location: "Bandung, Indonesia",
       title: "Fullstack Developer",
       logoUrl: "/company_logo/kazee.jpg",
       start: "Jan 2024",
@@ -36,9 +52,9 @@ export const DATA = {
         "Laravel, PHP, Javascript, Tailwinds CSS, Github, Figma, HeidiSQL",
     },
     {
-      company: "Kode Inkorporasi Technologi (KODINK)",
+      company: "Kode Inkorporasi Technologi (Partime)",
       href: "https://cod-inc.com/",
-      location: "Bandung, Indonesia - Partime",
+      location: "Bandung, Indonesia",
       title: "Fullstack Developer",
       logoUrl: "/company_logo/kodink.jpg",
       start: "jan 2024",
@@ -53,9 +69,9 @@ export const DATA = {
         "Laravel, Vue JS, Inertia JS, PHP, Javascript, Tailwinds CSS, MySQL",
     },
     {
-      company: "Lithium Labs",
+      company: "Lithium Labs (Internship Remote Working)",
       href: "https://www.linkedin.com/company/lithium-labs",
-      location: "Charlotte, North Carolina Area - Internship Remote Working",
+      location: "Charlotte, North Carolina Area",
       title: "Front End Engineer | Web 3 Developer",
       logoUrl: "/company_logo/lithiumlabs.jpg",
       start: "Feb 2024",
@@ -70,9 +86,9 @@ export const DATA = {
         "ReactJS, Typescript, ViteJS, Github, Figma, NodeJS, MaterialUI, Router, Tailwinds, AntDesign, InertiaJS",
     },
     {
-      company: "Neural Technologies",
+      company: "Neural Technologies (Internship)",
       href: "https://nti.co.id/",
-      location: "Jakarta, Indonesia - Fulltime Internship",
+      location: "Jakarta, Indonesia",
       title: "Frontend Engineer | UI&UX Deisgner",
       logoUrl: "/company_logo/nti.jpg",
       start: "Jan 2023",
@@ -91,11 +107,11 @@ export const DATA = {
     {
       school: "Qarir Generator",
       href: "https://qarirgenerator.com/",
-      location: "Emirates, Dubai - Online Learning",
+      location: "United Arab Emirates, Dubai",
       degree: "Working Abroad Program for AI Engineers",
       logoUrl: "/company_logo/qg.jpg",
       start: "Jun 2024",
-      end: null,
+      end: "Dec 2024",
       description: [
         "Acquired comprehensive knowledge in Artificial Intelligence (AI), with a focus on Large Language Models (LLMs), Deep Learning, and Neural Network Architectures, leveraging frameworks such as TensorFlow and PyTorch.",
         "Gained hands-on experience in developing and fine-tuning LLMs for natural language processing tasks, including text generation, sentiment analysis, and question-answering systems.",
@@ -112,7 +128,7 @@ export const DATA = {
         "Bachelor's Degree of Computer Science - focus on AI and Blockchain",
       logoUrl: "/company_logo/unjani.jpg",
       start: "Sep 2024",
-      end: null,
+      end: "Aug 2025",
       description: [
         "Specialized in Artificial Intelligence (AI) and Blockchain Technology, focusing on cutting-edge applications in decentralized systems and intelligent automation.",
         "Conducted research on AI models and their applications in natural language processing (NLP) and predictive analytics, showcasing advanced skills in machine learning frameworks like PyTorch and TensorFlow.",
@@ -140,7 +156,7 @@ export const DATA = {
     {
       title: "Qarir Generator - Online Learning Platform",
       href: "https://qarirgenerator.com/working-abroad",
-      dates: "Aug 2024 - Present",
+      dates: "Aug 2024 - July 2025",
       role: "Fullsatck Developer | Project Manager",
       active: true,
       description:
